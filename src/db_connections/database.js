@@ -5,7 +5,7 @@ const sqlDBconnection = mysqlDriver.createConnection({
     host     : 'host.docker.internal',
     user     : 'root',
     password : 'qwerty123',
-    database : 'finkraft_user_db'
+    database : 'user_db'
 });
 
 const nosqlDBconnecttion = () => {
